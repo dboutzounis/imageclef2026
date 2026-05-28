@@ -2,7 +2,7 @@
 
 This repository contains the codebase developed by the **Archimedes Unit** (a collaborative effort between the AUEB NLP Group and NKUA) for the 10th edition of the **ImageCLEFmedical Caption 2026 Concept Detection task**.
 
-Our proposed system achieved an exceptional **2nd place overall** in the official competition standings, trailing the top spot by a thin margin of just 0.0009 on the primary evaluation metric. This work also serves as the practical implementation framework for an ongoing bachelor's thesis.
+Our proposed system achieved an exceptional **2nd place overall** in the official competition standings, trailing the top spot by a thin margin of just 0.0009 on the primary evaluation metric.
 
 ---
 
