@@ -10,7 +10,7 @@ Our proposed system achieved an exceptional **2nd place overall** in the officia
 
 The project is organized into distinct functional modules:
 
-- **`Concept Detection/`**: Contains the core model architectures, multi-label binarization scripts, cross-seed benchmarking loops, ensembling logic, and our uncertainty calibration framework.
+- **`Concept Detection/`**: Contains the core model architectures, multi-label binarization scripts, cross-seed benchmarking loops, ensembling logic, and our conformal prediction regressor.
 - **`Exploratory Data Analysis/`**: Houses notebook investigating data distributions, right-skewed label density per instance, long-tail concept sparsity, and dataset performance overviews.
 
 ---
@@ -54,4 +54,4 @@ Our pipeline implements a highly robust collection of Convolutional Neural Netwo
 | **931** | Dual-5 (Standard Ensemble, no Conformal Adjustments) |        0.5771        |         0.9574         |     7th Place     |
 | **987** | Soft-Voting with post-ensemble Conformal Rescue      |        0.5764        |         0.9601         |     9th Place     |
 
-_Note: The primary metric represents the sample-averaged $F_1$ score calculated across the complete concept distribution, whereas the secondary metric restricts evaluation to a filtered subset of manual annotations like modality and anatomy._
+_Note: The primary metric represents the sample-averaged F1 score calculated across the complete concept distribution, whereas the secondary metric restricts evaluation to a filtered subset of manual annotations like modality and anatomy._
