@@ -1,4 +1,4 @@
-# ImageCLEFmedical Caption 2026 — Concept Detection Task
+# ImageCLEFmedical Caption 2026 - Concept Detection Task
 
 This repository contains the codebase developed by the **Archimedes Unit** (a collaborative effort between the AUEB NLP Group and NKUA) for the 10th edition of the **ImageCLEFmedical Caption 2026 Concept Detection task**.
 
@@ -12,6 +12,7 @@ The project is organized into distinct functional modules:
 
 - **`Concept Detection/`**: Contains the core model architectures, multi-label binarization scripts, cross-seed benchmarking loops, ensembling logic, and our conformal prediction regressor.
 - **`Exploratory Data Analysis/`**: Houses notebook investigating data distributions, right-skewed label density per instance, long-tail concept sparsity, and dataset performance overviews.
+- **`Uncertainty-Aware_Biomedical_Image_Concept_Detection_via_CNN_Ensembles.pdf`**: The paper that describes our methodology and experiments for the ImageCLEFmed Concept Detection Task.
 
 ---
 
